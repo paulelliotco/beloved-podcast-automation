@@ -1,0 +1,41 @@
+# Ignore environment files with API keys
+.env
+.env.local
+.env.development
+.env.production
+secrets.json
+
+# Ignore output directories
+output/converted_mp3/
+output/other/
+output/podcasts/
+output/podcasts_1/
+
+# Ignore Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+ENV/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
