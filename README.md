@@ -11,7 +11,7 @@
 
 2. **Automated Processing**  
    ```bash
-   python run_pipeline.py --input video_list.csv
+   python run_pipeline.py
    ```
    - Matches YouTube videos (93% accuracy threshold)
    - Processes audio to podcast standards
